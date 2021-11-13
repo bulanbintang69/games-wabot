@@ -12,8 +12,8 @@ let handler  = async (m, { conn, usedPrefix }) => {
   conn.reply(m.chat, `
 ╠═〘 ${package.name} 〙 ═
 ╠➥ *Versi:* ${package.version}
-╠➥ *HomePage:* ${(package.homepage ? package.homepage.url || package.homepage : '[unknown github url]')}
-╠➥ *Issue:* ${package.bugs.url}
+╠➥ *HomePage:* 
+╠➥ *Issue:* 
 ╠➥ *Prefix:* ' ${usedPrefix} '
 ╠➥ *Menu:* ${usedPrefix}menu
 ╠➥ *Ping:* ${neww - old} *ms*
@@ -21,10 +21,10 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *Uptime:* ${uptime}
 ║
 ╠═〘 DONASI 〙 ═
-╠➥ Gopay: 085713964963
-╠➥ Indosat: 085713964963
+╠➥ Gopay: 085155333010
+╠➥ Dana: 085155333010
 ║
-╠═ Request? ${package.bugs.url}
+╠═ Request? 
 ╠═ Official Group *${conn.user.name}* :
 ${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n║\n`}
 ║
